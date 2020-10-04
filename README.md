@@ -1,21 +1,21 @@
 # Command Line Interface
 
-## Check version 
+### Check version 
 deno --version
 
-## Using the subcommand.
+### Using the subcommand.
 deno help
 
-## Using the short flag -- outputs the same as above.
+### Using the short flag -- outputs the same as above.
 deno -h
 
-# Using the long flag -- outputs more detailed help text where available.
+### Using the long flag -- outputs more detailed help text where available.
 deno --help
 
-## Run application
+### Run application
 deno run welcome.ts
 
-## Run server application 
+### Run server application 
 deno run --allow-net hello-server.ts
 
 
